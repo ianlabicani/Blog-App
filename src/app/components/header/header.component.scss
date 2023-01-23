@@ -1,0 +1,34 @@
+.navbar {
+  background-color: #f8f8f8;
+  color: gray;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .navbar-header {
+      display: grid;
+
+      .navbar-brand {
+        place-self: center;
+        font-size: 25px;
+      }
+    }
+
+    .navbar-nav {
+      display: flex;
+      gap: 25px;
+      align-items: center;
+
+      .nav-link {
+        list-style: none;
+
+        a {
+          text-decoration: none;
+          letter-spacing: 0.75px;
+          color: gray;
+        }
+      }
+    }
+  }
+}

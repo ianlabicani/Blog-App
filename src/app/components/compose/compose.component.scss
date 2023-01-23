@@ -1,0 +1,35 @@
+h1 {
+    padding-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    .title {
+        font-size: 20px;
+        width: 50%;
+        padding: 5px 8px;
+    }
+    .description {
+        font-size: 20px;
+        padding: 5px 8px;
+    }
+}
+.publish-btn {
+        font-size: 20px;
+        padding: 5px;
+        background-color: rgba(90, 90, 255);
+        color: white;
+        border: 1px;
+        border-radius: 3px;
+        display: grid;
+        align-items: center;
+    }   
